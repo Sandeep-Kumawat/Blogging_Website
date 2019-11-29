@@ -1,0 +1,22 @@
+CREATE DATABASE Blog;
+CREATE TABLE Users(email VARCHAR(20) NOT NULL,
+   Password VARCHAR (20) NOT NULL,
+   Gender VARCHAR(20) NOT NULL,
+   Age INT NOT NULL,
+   First_name VARCHAR(20) NOT NULL,
+   Last_name VARCHAR(20) NOT NULL,
+   PRIMARY KEY (email)
+);
+
+CREATE TABLE POSTS(title VARCHAR(20) NOT NULL,
+                   description VARCHAR(20)NOT NULL;
+                   likes INT;
+                   image_url VARCHAR(20) NOT NULL;
+                   author VARCHAR(20)NOT NULL;
+                   );
+                   
+CREATE TABLE COMMENTS (commented_by VARCHAR(20) NOT NULL;
+                       post_id VARCHAR(20) NOT NULL;
+                       comment VARCHAR(20);
+                       );
+                       
