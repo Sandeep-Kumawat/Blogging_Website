@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel = "stylesheet" type ="text/css" href="css/bootstrap.css">
+	<link rel = "stylesheet" type ="text/css" href="js/bootstrap.js">
+	<link rel = "stylesheet" type ="text/css" href="login.css">
+	
+	<title>login and sign up form</title>
+</head>
+<body>
+	<div class = "container">
+		<div class="row">
+			<div class ="col-md-5">
+				<h1 class = "text-center">Developer</h1>
+				<label class = "label control-label">User name or E-mail</label>
+				<div class ="input-group">
+					<span class ="input-group-addon"><span class ="glyphicon glyphicon-user"></span></span>
+					<input type="text" class ="form-control" name="mail" placeholder="E-mail">
+				</div>
+				<label class = "label control-label">Password</label>
+				<div class ="input-group">
+					<span class ="input-grou-addon"><span class ="glyphicon glyphicon-lock"></span></span>
+					<input type="Password" class ="form-control" name="Password" placeholder="Password">
+					<!-- make a row for 2 col-md-6 -->
+					<div class="row">
+						<div class ="col-md-6">
+						<input type="checkbox"> <small> Remember me</small>
+					</div>
+					<div class ="col-md-6">
+						<a href="#"><p class "text-right">Forget Password</p></a>
+				</div>
+			</div>
+			<!-- close-->
+			<a href="#"><div class ="btn btn-default">SIGN IN</div></a>
+			<p class="text-center">Not a member yet? <a href="#">Sign Up</a></p>
+			</div>
+			<div class = "col-md-2"></div>
+			<div class = "col-md-5"></div>
+				<h2 class = text-center> Sign Up</h2>
+				<label class="label control-label">Name</label>
+				<div class="input-group">
+					<span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+					<input type="text" class="form-control" name="Name" placeholder="Name">
+				</div>
+				<label class="label control-label">E-mail</label>
+				<div class="input-group">
+					<span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+					<input type="email" class="form-control" name="mail" placeholder="E-mail">
+				</div>
+				<label class="label control-label">Contact</label>
+				<div class="input-group">
+					<span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+					<input type="number" class="form-control" name="Contact" placeholder="Contact">
+				</div>
+				<label class="label control-label">Password</label>
+				<div class="input-group">
+					<span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+					<input type="Password" class="form-control" name="Password" placeholder="Password">
+				</div>
+				<label class="label control-label">Re-type Password</label>
+				<div class="input-group">
+					<span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+					<input type="Password" class="form-control" name="Re-type Password" placeholder="Re-type Password">
+				</div>
+				<a href="#"><div class ="btn btn-default">Sign Up</div></a>
+		</div>
+	</div>
+
+</body>
+</html>
